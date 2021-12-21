@@ -28,10 +28,10 @@ Pass users to your template and have your template output an HTML table like thi
 
 As you need to get into the habit of making your assignment look nice, we challenge you to use either Bootstrap or Foundation. If you haven't dabbled with these frameworks, start by learning just enough to do this assignment (creating a nice looking table).
 
-- [ ] Start a new Flask project
+- [X] Start a new Flask project
 
-- [ ] Create a route in which the data above is declared and then sent to the template engine to be rendered
+- [X] Create a route in which the data above is declared and then sent to the template engine to be rendered
 
-- [ ] Create the template that displays the data in a table
+- [X] Create the template that displays the data in a table
 
-- [ ] NINJA BONUS: Use a framework to format the table
+- [X] NINJA BONUS: Use a framework to format the table
