@@ -21,7 +21,18 @@
                     <th>Full Name</th>
                 </tr>
             </thead>
-            <tbody class="table-primary">
+            <tbody>
+                {% for users in users %}
+                <tr>
+                    <td>{{users['first_name']}}</td>
+                    <td>{{users['last_name'] }}</td>
+                    <td>{{users['first_name']}} {{users['last_name']}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+
+            <!--! another solution -->
+            <!-- <tbody class="table-primary">
                 {% for i in range(usersLength): %}
                     <tr>
                         {% for key in users[i]: %}
@@ -30,7 +41,8 @@
                             <td>{{users[i]['first_name']}} {{users[i]['last_name']}}</td>
                     </tr>
                         {% endfor %}
-            </tbody>
+            </tbody> -->
+
         </table>
     </div>
 </body>
