@@ -11,13 +11,15 @@ Getting comfortable with iterating through a list of dictionaries is very import
 
 Create the following list of dictionaries and have it available for your route.
 
+```
 users = [
    {'first_name' : 'Michael', 'last_name' : 'Choi'},
    {'first_name' : 'John', 'last_name' : 'Supsupin'},
    {'first_name' : 'Mark', 'last_name' : 'Guillen'},
    {'first_name' : 'KB', 'last_name' : 'Tonel'}
 ]
-copy
+```
+
 Pass users to your template and have your template output an HTML table like this:
 
 First Name	Last Name	Full Name
